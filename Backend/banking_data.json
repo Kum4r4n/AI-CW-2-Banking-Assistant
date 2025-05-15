@@ -1,0 +1,207 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Good morning",
+        "Hey",
+        "What's up?"
+      ],
+      "response": "Hello! Welcome to your banking assistant. How can I help you today?"
+    },
+    {
+      "tag": "account_types",
+      "patterns": [
+        "Do you have FD accounts?",
+        "What\u2019s an RD account?",
+        "Tell me about recurring deposits",
+        "What is a current account?",
+        "I want a savings account",
+        "Fixed deposits account types",
+        "Which accounts earn interest?",
+        "Do all accounts offer interest?"
+      ],
+      "response": "We offer the following account types: Savings Account, Current Account, Fixed Deposit (FD), and Recurring Deposit (RD)."
+    },
+    {
+      "tag": "open_account",
+      "patterns": [
+        "How do I open a bank account?",
+        "Open a new account",
+        "Process to open an account"
+      ],
+      "response": "You can open an account by visiting any branch with your ID proof and address proof, or apply online through our portal."
+    },
+    {
+      "tag": "balance_inquiry",
+      "patterns": [
+        "Check my balance",
+        "Account balance",
+        "How much money do I have?",
+        "Show balance"
+      ],
+      "response": "For security, please log in to your internet banking or mobile banking app to check your balance."
+    },
+    {
+      "tag": "transaction_history",
+      "patterns": [
+        "Transaction history",
+        "Mini statement",
+        "Show recent transactions"
+      ],
+      "response": "You can view your transaction history by logging into our mobile app or by visiting your nearest ATM."
+    },
+    {
+      "tag": "loan_info",
+      "patterns": [
+        "Loan details",
+        "What loans do you offer?",
+        "Apply for a loan",
+        "Loan interest rate"
+      ],
+      "response": "We offer Home Loans, Personal Loans, Education Loans, and Vehicle Loans. Interest rates vary by loan type and credit score."
+    },
+    {
+      "tag": "credit_card",
+      "patterns": [
+        "Credit card options",
+        "Apply for credit card",
+        "Credit card limit",
+        "Best credit card"
+      ],
+      "response": "We offer a variety of credit cards including rewards cards, travel cards, and business cards. Apply online or at any branch."
+    },
+    {
+      "tag": "interest_rate",
+      "patterns": [
+        "Interest rates",
+        "FD rates",
+        "Savings account interest",
+        "What is the bank interest?",
+        "What interest do I get?",
+        "What\u2019s the interest for FDs?",
+        "How much will I earn in fixed deposit?",
+        "Does FD give returns?",
+        "Tell me FD rates today",
+        "Interest for fixed deposit?",
+        "Is there interest for FD accounts?",
+        "Current interest rate for fixed deposit?",
+        "Do savings earn interest?",
+        "FD interest today",
+        "Interest rate on FD",
+        "How much interest does FD pay?",
+        "Fixed Deposit interest",
+        "How much will I get after maturity?",
+        "Bank interest on term deposit?",
+        "Does fixed deposit give money?",
+        "Can I earn from FD?",
+        "Will I get interest monthly?",
+        "Monthly FD interest",
+        "Interest on recurring deposit",
+        "What are the returns on FD?",
+        "What\u2019s the rate for 1-year FD?",
+        "Is FD better than savings?",
+        "Interest for 3-month FD",
+        "Fixed deposit return calculator",
+        "Expected interest for FD"
+      ],
+      "response": "Our savings account offers 4.5% annual interest. Fixed Deposits offer up to 6.75% depending on tenure and amount."
+    },
+    {
+      "tag": "atm_location",
+      "patterns": [
+        "ATM near me",
+        "Find ATM",
+        "Locate ATM",
+        "Where is the nearest ATM?"
+      ],
+      "response": "Please enable GPS or visit our website's ATM locator to find the nearest ATM."
+    },
+    {
+      "tag": "branch_hours",
+      "patterns": [
+        "Branch timings",
+        "When does the bank open?",
+        "Bank hours"
+      ],
+      "response": "Our branches are open Monday to Friday from 9:00 AM to 4:00 PM and Saturday from 9:00 AM to 1:00 PM."
+    },
+    {
+      "tag": "customer_support",
+      "patterns": [
+        "Talk to customer care",
+        "Customer service number",
+        "Help line",
+        "I need support"
+      ],
+      "response": "You can call our 24/7 customer support at 011-1234567 or email us at support@bank.com."
+    },
+    {
+      "tag": "fund_transfer",
+      "patterns": [
+        "Transfer money",
+        "Send funds",
+        "Fund transfer process",
+        "How to transfer funds?"
+      ],
+      "response": "You can transfer money via NEFT, RTGS, or IMPS using your net banking or mobile app."
+    },
+    {
+      "tag": "block_card",
+      "patterns": [
+        "Block my card",
+        "Lost my card",
+        "Card stolen",
+        "Freeze my card"
+      ],
+      "response": "To block your card immediately, call our 24x7 helpline or use the mobile app under 'Manage Cards'."
+    },
+    {
+      "tag": "update_kyc",
+      "patterns": [
+        "Update KYC",
+        "How to submit KYC?",
+        "KYC form submission"
+      ],
+      "response": "You can update your KYC by submitting your documents through the mobile app or visiting any branch."
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That was helpful",
+        "Appreciate it"
+      ],
+      "response": "You're most welcome! Let me know if you have any more questions."
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "Talk later"
+      ],
+      "response": "Goodbye! Have a great day. \ud83d\ude0a"
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "asdfghj",
+        "Tell me about unicorn accounts",
+        "What's my lucky number?"
+      ],
+      "response": "I'm not sure I understand that yet, but I'm learning every day. Could you try asking something else related to banking?"
+    },
+    {
+      "tag": "learned_17",
+      "patterns": [
+        "whst is my acc number"
+      ],
+      "response": "we dont't know your account number, please login to you account from banking portal"
+    }
+  ]
+}

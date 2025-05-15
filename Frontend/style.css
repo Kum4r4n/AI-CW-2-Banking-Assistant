@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #eef2f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat-container {
+  width: 100%;
+  max-width: 480px;
+  height: 90vh;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #dce3ec;
+}
+
+.chat-header {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #f5f9fc;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-input-container {
+  display: flex;
+  padding: 0.8rem;
+  border-top: 1px solid #e3e8ee;
+  background: #ffffff;
+}
+
+.chat-input-container input {
+  flex: 1;
+  padding: 0.65rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ced6e0;
+  background-color: #f1f5f9;
+  outline: none;
+  color: #333;
+}
+
+.chat-input-container input:focus {
+  border-color: #007bff;
+  background-color: #ffffff;
+}
+
+.chat-input-container button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 0.65rem 1rem;
+  margin-left: 0.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.chat-input-container button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  max-width: 75%;
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 16px;
+  line-height: 1.4;
+  word-break: break-word;
+  font-size: 0.95rem;
+}
+
+.user {
+  align-self: flex-end;
+  background: #007bff;
+  color: white;
+  border-bottom-right-radius: 0;
+}
+
+.bot {
+  align-self: flex-start;
+  background: #f1f1f1;
+  color: #222;
+  border-bottom-left-radius: 0;
+}
